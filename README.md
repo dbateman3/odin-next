@@ -1,0 +1,2 @@
+Odin Responsive Design Project: https://www.theodinproject.com/courses/html5-and-css3/lessons/building-with-responsive-design
+ This project is meant to practice on working with multiple device layouts using responsive design and media queries.
