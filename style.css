@@ -1,0 +1,47 @@
+a {
+	text-decoration: none;
+}
+
+/* nav */
+.nav{
+	display: block;
+	height: 50px;
+	
+}
+
+.nav .nav-top{
+	height: 30px;
+	background-color: black;
+
+}
+
+.nav .nav-top a{
+	margin-top: auto;
+	margin-bottom: auto;
+	font-size: 14px;
+	color: #555;
+}
+
+.nav .nav-top .nav-left{
+	display: inline-block;
+	float: left;
+	color: #555;
+	
+}
+
+.nav .nav-top .nav-right{
+	display: inline-block;
+	float: right;
+	
+}
+
+.nav .nav-bot .sections{
+	display: inline-block;
+	float: left;
+	clear: both;
+	
+}
+
+.nav .nav-bot .sections li{
+	float: left;
+}
