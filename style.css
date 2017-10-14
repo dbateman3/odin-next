@@ -2,46 +2,76 @@ a {
 	text-decoration: none;
 }
 
+li{
+	list-style: none;
+}
+
 /* nav */
 .nav{
 	display: block;
-	height: 50px;
-	
+	height: 80px;
+	width: 100%;
+	text-align: center;
 }
 
 .nav .nav-top{
-	height: 30px;
+
+	height: 32px;
 	background-color: black;
 
 }
 
+.nav .nav-top li:first-child{
+	margin-left: 20px;
+}
+
+.nav .nav-top li{
+	margin-left: 12px;
+}
+
 .nav .nav-top a{
-	margin-top: auto;
-	margin-bottom: auto;
-	font-size: 14px;
-	color: #555;
+	line-height: 32px;
+	font-size: 13px;
+	color: #899097;
+	font-family: sans-serif;
 }
 
 .nav .nav-top .nav-left{
-	display: inline-block;
-	float: left;
-	color: #555;
-	
+	display: block;
+	float: left;	
 }
 
 .nav .nav-top .nav-right{
-	display: inline-block;
-	float: right;
-	
+	display: block;
+	float: right;	
 }
 
 .nav .nav-bot .sections{
 	display: inline-block;
 	float: left;
 	clear: both;
+
 	
+}
+
+.nav .nav-bot .sections li:first-child{
+	padding-left: 20px;
 }
 
 .nav .nav-bot .sections li{
 	float: left;
+	padding-left: 12px;
+	padding-right: 12px;
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: .04em;
+	height: 48px;
+	line-height: 1;
+	padding: 18px 10px 0 ;
+	text-transform: uppercase;
+}
+
+.nav .nav-bot .sections a{
+	color: #AAA;	
 }
