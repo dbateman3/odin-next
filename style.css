@@ -15,7 +15,7 @@ li{
 }
 
 .nav .nav-top{
-
+	width: 100%;
 	height: 32px;
 	background-color: black;
 
@@ -27,6 +27,10 @@ li{
 
 .nav .nav-top li{
 	margin-left: 12px;
+}
+
+.nav .nav-top #first{
+	color: white;
 }
 
 .nav .nav-top a{
@@ -44,6 +48,10 @@ li{
 .nav .nav-top .nav-right{
 	display: block;
 	float: right;	
+}
+
+.nav .nav-bot{
+	width: 100%;
 }
 
 .nav .nav-bot .sections{
@@ -66,7 +74,7 @@ li{
 	font-size: 14px;
 	font-weight: 500;
 	letter-spacing: .04em;
-	height: 48px;
+	height: 35px;
 	line-height: 1;
 	padding: 18px 10px 0 ;
 	text-transform: uppercase;
@@ -74,4 +82,23 @@ li{
 
 .nav .nav-bot .sections a{
 	color: #AAA;	
+}
+
+/* message */
+
+.nav .message{
+	float: left;
+	clear: both;
+	width: 100%;
+	background-color: #fd3;
+	text-align: left;
+	line-height: 30px;
+	padding: 0 6px;
+	padding-left: 20px;
+}
+
+.nav .message a{
+	font-size: 13px;
+	font-family: sans-serif;
+	color: black;
 }
