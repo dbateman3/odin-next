@@ -7,14 +7,15 @@ li{
 }
 
 .container{
-	height: 1080px;
-	width: 1920px;
+	height: 100vh;
+	width: 100vw;
 }
 
 /* nav */
 .nav{
 	display: block;
 	position: absolute;
+	box-sizing: border-box;
 	clear: both;
 	height: 80px;
 	width: 100%;
@@ -22,6 +23,7 @@ li{
 }
 
 .nav .nav-top{
+	box-sizing: border-box;
 	width: 100%;
 	height: 32px;
 	background-color: black;
@@ -29,7 +31,8 @@ li{
 }
 
 .nav .nav-top li:first-child{
-	margin-left: 20px;
+	box-sizing: border-box;
+	padding-left: 20px;
 }
 
 .nav .nav-top li{
@@ -65,6 +68,7 @@ li{
 
 .nav .nav-bot .sections{
 	display: inline-block;
+	box-sizing: border-box;
 	float: left;
 	clear: both;
 	background-color: #fff;
@@ -98,13 +102,13 @@ li{
 .nav .message{
 	display: block;
 	position: relative;
-	
+	box-sizing: border-box;
 	clear: both;
 	width: 100%;
 	background-color: #fd3;
 	text-align: left;
 	line-height: 30px;
-	padding: 0 6px;
+	
 	padding-left: 20px;
 }
 
@@ -119,12 +123,11 @@ li{
 .main{
 	position: relative;
 	display: block;
+	box-sizing: border-box;
 	top: 110px;
 	height: 100%;
 	width: 100%;
-	max-height: 560px;
 	padding: 4px;
-	border: 1px solid black;
 }
 
 .main .cover{
@@ -133,35 +136,44 @@ li{
 	height: 100%;
 	max-height: 560px;
 	width: 100%;
-	max-height: 560px;
 }
 
 .main .cover #story1{
 	display: block;
 	position: relative;
+	box-sizing: border-box;
 	height: 100%;
 	width: 66.66666%;
 	float: left;
+	padding: 4px;
 	background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/10/rockem-796x451.jpg");
 	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
 }
 
 .main .cover #story2{
 	display: block;
 	position: relative;
+	box-sizing: border-box;
 	height: 50%;
 	width: 33.33333%;
 	float: left;
+	padding: 4px;
 	background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/10/Women-Boycott-Twitter-796x398.jpg");
 	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: cover cover;
 }
 
 .main .cover #story3{
 	display: block;
 	position: relative;
+	box-sizing: border-box;
 	height: 50%;
 	width: 33.33333%;
-	float: left;
+	background-size: cover;
+	background-position: cover cover;
 	background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/10/Screen-Shot-2017-10-13-at-2.32.53-PM-796x415.png")
 	background-repeat: no-repeat;
 }
