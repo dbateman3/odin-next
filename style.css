@@ -6,9 +6,16 @@ li{
 	list-style: none;
 }
 
+.container{
+	height: 1080px;
+	width: 1920px;
+}
+
 /* nav */
 .nav{
 	display: block;
+	position: absolute;
+	clear: both;
 	height: 80px;
 	width: 100%;
 	text-align: center;
@@ -52,13 +59,15 @@ li{
 
 .nav .nav-bot{
 	width: 100%;
+	background-color: #fff;
+	z-index: 2;
 }
 
 .nav .nav-bot .sections{
 	display: inline-block;
 	float: left;
 	clear: both;
-
+	background-color: #fff;
 	
 }
 
@@ -87,7 +96,9 @@ li{
 /* message */
 
 .nav .message{
-	float: left;
+	display: block;
+	position: relative;
+	
 	clear: both;
 	width: 100%;
 	background-color: #fd3;
@@ -101,4 +112,56 @@ li{
 	font-size: 13px;
 	font-family: sans-serif;
 	color: black;
+}
+
+/* main content */
+
+.main{
+	position: relative;
+	display: block;
+	top: 110px;
+	height: 100%;
+	width: 100%;
+	max-height: 560px;
+	padding: 4px;
+	border: 1px solid black;
+}
+
+.main .cover{
+	display: block;
+	position: relative;
+	height: 100%;
+	max-height: 560px;
+	width: 100%;
+	max-height: 560px;
+}
+
+.main .cover #story1{
+	display: block;
+	position: relative;
+	height: 100%;
+	width: 66.66666%;
+	float: left;
+	background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/10/rockem-796x451.jpg");
+	background-repeat: no-repeat;
+}
+
+.main .cover #story2{
+	display: block;
+	position: relative;
+	height: 50%;
+	width: 33.33333%;
+	float: left;
+	background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/10/Women-Boycott-Twitter-796x398.jpg");
+	background-repeat: no-repeat;
+}
+
+.main .cover #story3{
+	display: block;
+	position: relative;
+	height: 50%;
+	width: 33.33333%;
+	float: left;
+	background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/10/Screen-Shot-2017-10-13-at-2.32.53-PM-796x415.png")
+	background-repeat: no-repeat;
 }
