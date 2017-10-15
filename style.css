@@ -124,10 +124,11 @@ li{
 	position: relative;
 	display: block;
 	box-sizing: border-box;
-	top: 110px;
+	top: 100px;
 	height: 60vh
 	width: 100vh;
 	padding: 4px;
+	z-index: -1;
 }
 
 .main .cover{
@@ -143,24 +144,42 @@ li{
 	position: relative;
 	box-sizing: border-box;
 	height: 100%;
-	width: 66.66666%;
-	float: left;
+	width: 100%;
+	
 	padding: 4px;
-	background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/10/rockem-796x451.jpg");
+	background: 
+		linear-gradient(to top left, rgba(40, 6, 6, 1), rgba(219, 39, 39, .2)),
+		url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/10/rockem-796x451.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
+}
+
+.cover-title1{
+	position: absolute;
+	bottom: 50px;
+	left: 4px;
+	margin-bottom: .25em;
+}
+
+.main .cover .cover-story1 #story1 .header1 .cover-title1 a{
+	color: #fff;
+	font-size: 56px;
+	font-weight: 700;
+	line-height: 1;
+	letter-spacing: -.015em;
+	font-family: Avalon, sans-serif;
 }
 
 .main .cover #story2{
 	display: block;
 	position: relative;
 	box-sizing: border-box;
-	height: 50%;
-	width: 33.33333%;
-	float: left;
+	height: 100%;
+	width: 100%;
+	
 	padding: 4px;
-	background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/10/Women-Boycott-Twitter-796x398.jpg");
+	background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/10/Women-Boycott-Twitter-796x398.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: cover cover;
@@ -170,12 +189,42 @@ li{
 	display: block;
 	position: relative;
 	box-sizing: border-box;
-	height: 50%;
-	width: 33.33333%;
-	float: left;
+	height: 100%;
+	width: 100%;
+
 	padding: 4px;
 	background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/10/Screen-Shot-2017-10-13-at-2.32.53-PM-796x415.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: cover cover;	
+}
+
+.main .cover .cover-story1{
+	display: block;
+	position: relative;
+	box-sizing: border-box;
+	height: 100%;
+	width: 66.66666%;
+	float: left;
+	padding: 4px;
+}
+
+.main .cover .cover-story2{
+	display: block;
+	position: relative;
+	box-sizing: border-box;
+	height: 50%;
+	width: 33.33333%;
+	float: left;
+	padding: 4px;
+}
+
+.main .cover .cover-story3{
+	display: block;
+	position: relative;
+	box-sizing: border-box;
+	height: 50%;
+	width: 33.33333%;
+	float: left;
+	padding: 4px;
 }
